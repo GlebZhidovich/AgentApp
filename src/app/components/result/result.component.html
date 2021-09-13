@@ -1,0 +1,6 @@
+<div *ngFor="let item of data" class="card">
+  {{ item[0] | title}}
+  <div *ngFor="let value of item[1]">
+    {{value[0] | title}} {{value[1]}} P
+  </div>
+</div>
